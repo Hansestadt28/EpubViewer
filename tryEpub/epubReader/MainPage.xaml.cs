@@ -1,4 +1,5 @@
-﻿using System;
+﻿using epubReader.Helper;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,23 @@ namespace epubReader
         public MainPage()
         {
             this.InitializeComponent();
+            Inhaltsverzeichnis();
+        }
+
+        public void Inhaltsverzeichnis()
+        {
+            Reader reader = new Reader();
+            var liste = reader.ReadFile();
+
+
+            //TreeViewNode rootNode = new TreeViewNode();
+            //rootNode.IsExpanded = true;
+            //rootNode.Children.Add(new TreeViewNode() { Content = "Vanilla" });
+            //rootNode.Children.Add(new TreeViewNode() { Content = "Strawberry" });
+            //rootNode.Children.Add(new TreeViewNode() { Content = "Chocolate" });
+            //rootNode.Content = "Inhaltsverzeichnis";
+
+            //this.Inhalt.RootNodes.Add(rootNode);
         }
     }
 }

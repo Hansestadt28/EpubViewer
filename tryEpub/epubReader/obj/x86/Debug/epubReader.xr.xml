@@ -7,7 +7,12 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Grid" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TreeView">
+      <RootProperty Name="Name" />
+    </RootType>
     <RootType FullName="epubReader.MainPage" />
   </Roots.RootTypes>
 </Roots>
