@@ -1,6 +1,7 @@
 ﻿using epubReader.Helper;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -23,6 +24,9 @@ namespace epubReader
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        public List<string> TocItems;
+        
         public MainPage()
         {
             this.InitializeComponent();
@@ -33,7 +37,7 @@ namespace epubReader
         {
             Reader reader = new Reader();
             var liste = reader.ReadFile();
-
+            TocItems = liste;
 
             //TreeViewNode rootNode = new TreeViewNode();
             //rootNode.IsExpanded = true;

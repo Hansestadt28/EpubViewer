@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TreeView x:ConnectionId='2' Name="Inhalt"  >
+        <TreeView x:ConnectionId='2' Name="Inhalt">
             
         </TreeView>
     </Grid>

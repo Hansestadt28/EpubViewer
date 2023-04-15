@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-25T16:53:36.933</Modified>
+      <Modified>2022-06-01T14:50:35.609</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\epubReader.exe">
       <PackagePath>entrypoint\epubReader.exe</PackagePath>
-      <Modified>2022-05-25T16:53:36.489</Modified>
+      <Modified>2022-06-01T14:50:35.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andres\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -49,6 +49,10 @@
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-05-18T15:32:53.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\xml\toc.xml">
+      <PackagePath>xml\toc.xml</PackagePath>
+      <Modified>2022-06-01T14:25:35.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -86,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\epubReader.xr.xml">
       <PackagePath>epubReader.xr.xml</PackagePath>
-      <Modified>2022-05-25T15:14:08.647</Modified>
+      <Modified>2022-05-31T15:23:34.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-25T16:53:36.423</Modified>
+      <Modified>2022-06-01T14:50:35.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-25T16:53:36.423</Modified>
+      <Modified>2022-06-01T14:50:35.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-25T15:41:44.146</Modified>
+      <Modified>2022-06-01T14:35:08.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\bin\x86\Debug\Core\epubReader.exe">
       <PackagePath>epubReader.exe</PackagePath>
-      <Modified>2022-05-25T16:53:36.928</Modified>
+      <Modified>2022-06-01T14:50:35.609</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

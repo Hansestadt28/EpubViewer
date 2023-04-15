@@ -1,0 +1,1625 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="_idm45536786225280"/>
+  </head>
+  <docTitle>
+    <text>Git</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="idm45536786225280" playOrder="1">
+      <navLabel>
+        <text>Git</text>
+      </navLabel>
+      <content src="index.html"/>
+      <navPoint id="idm45536786222032" playOrder="2">
+        <navLabel>
+          <text>Vorwort</text>
+        </navLabel>
+        <content src="pr01.html"/>
+        <navPoint id="idm45536783807664" playOrder="3">
+          <navLabel>
+            <text>1. An wen richtet sich dieses Buch?</text>
+          </navLabel>
+          <content src="pr01s01.html"/>
+        </navPoint>
+        <navPoint id="idm45536782852608" playOrder="4">
+          <navLabel>
+            <text>2. Wie ist das Buch zu lesen?</text>
+          </navLabel>
+          <content src="pr01s02.html"/>
+        </navPoint>
+        <navPoint id="idm45536786123696" playOrder="5">
+          <navLabel>
+            <text>3. Konventionen</text>
+          </navLabel>
+          <content src="pr01s03.html"/>
+        </navPoint>
+        <navPoint id="idm45536786114816" playOrder="6">
+          <navLabel>
+            <text>4. Installation und „das Git-Repository“</text>
+          </navLabel>
+          <content src="pr01s04.html"/>
+        </navPoint>
+        <navPoint id="idm45536786273104" playOrder="7">
+          <navLabel>
+            <text>5. Dokumentation und Hilfe</text>
+          </navLabel>
+          <content src="pr01s05.html"/>
+        </navPoint>
+        <navPoint id="idm45536786255856" playOrder="8">
+          <navLabel>
+            <text>6. Downloads und Kontakt</text>
+          </navLabel>
+          <content src="pr01s06.html"/>
+        </navPoint>
+        <navPoint id="idm45536780769216" playOrder="9">
+          <navLabel>
+            <text>7. Danksagungen</text>
+          </navLabel>
+          <content src="pr01s07.html"/>
+        </navPoint>
+        <navPoint id="idm45536780765552" playOrder="10">
+          <navLabel>
+            <text>8. Vorwort zur 2. Auflage</text>
+          </navLabel>
+          <content src="pr01s08.html"/>
+        </navPoint>
+        <navPoint id="idm45536780762368" playOrder="11">
+          <navLabel>
+            <text>9. Vorwort zur CreativeCommons-Ausgabe</text>
+          </navLabel>
+          <content src="pr01s09.html"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536780758560" playOrder="12">
+        <navLabel>
+          <text>1. Einführung und erste Schritte</text>
+        </navLabel>
+        <content src="ch01.html"/>
+        <navPoint id="idm45536780756720" playOrder="13">
+          <navLabel>
+            <text>1.1. Grundbegriffe</text>
+          </navLabel>
+          <content src="ch01s01.html"/>
+        </navPoint>
+        <navPoint id="idm45536780710192" playOrder="14">
+          <navLabel>
+            <text>1.2. Erste Schritte mit Git</text>
+          </navLabel>
+          <content src="ch01s02.html"/>
+          <navPoint id="idm45536780701744" playOrder="15">
+            <navLabel>
+              <text>1.2.1. Das erste Repository</text>
+            </navLabel>
+            <content src="ch01s02.html#sec.erstes-repo"/>
+          </navPoint>
+          <navPoint id="idm45536780689248" playOrder="16">
+            <navLabel>
+              <text>1.2.2. Der erste Commit</text>
+            </navLabel>
+            <content src="ch01s02.html#sec.erster-commit"/>
+          </navPoint>
+          <navPoint id="idm45536780659312" playOrder="17">
+            <navLabel>
+              <text>1.2.3. Commits einsehen</text>
+            </navLabel>
+            <content src="ch01s02.html#sec.commits-einsehen"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536780632240" playOrder="18">
+          <navLabel>
+            <text>1.3. Git konfigurieren</text>
+          </navLabel>
+          <content src="ch01s03.html"/>
+          <navPoint id="idm45536780604656" playOrder="19">
+            <navLabel>
+              <text>1.3.1. Git Aliase</text>
+            </navLabel>
+            <content src="ch01s03.html#sec.git-alias"/>
+          </navPoint>
+          <navPoint id="idm45536780594304" playOrder="20">
+            <navLabel>
+              <text>1.3.2. Farbe einstellen</text>
+            </navLabel>
+            <content src="ch01s03.html#chap.color-defaults"/>
+          </navPoint>
+          <navPoint id="idm45536780588432" playOrder="21">
+            <navLabel>
+              <text>1.3.3. Zeichensätze einstellen</text>
+            </navLabel>
+            <content src="ch01s03.html#chap.config-encoding"/>
+          </navPoint>
+          <navPoint id="idm45536780579808" playOrder="22">
+            <navLabel>
+              <text>1.3.4. Zeilenenden einstellen</text>
+            </navLabel>
+            <content src="ch01s03.html#sec.config-eol"/>
+          </navPoint>
+          <navPoint id="idm45536780566240" playOrder="23">
+            <navLabel>
+              <text>1.3.5. Editor, Pager und Browser einstellen</text>
+            </navLabel>
+            <content src="ch01s03.html#chap.ext-tools"/>
+          </navPoint>
+          <navPoint id="idm45536780552992" playOrder="24">
+            <navLabel>
+              <text>1.3.6. Konfiguration über Umgebungsvariablen</text>
+            </navLabel>
+            <content src="ch01s03.html#chap.conf-env"/>
+          </navPoint>
+          <navPoint id="idm45536780530640" playOrder="25">
+            <navLabel>
+              <text>1.3.7. Automatische Fehlerkorrektur</text>
+            </navLabel>
+            <content src="ch01s03.html#chap.correct-errors"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536780519424" playOrder="26">
+        <navLabel>
+          <text>2. Grundlagen</text>
+        </navLabel>
+        <content src="ch02.html"/>
+        <navPoint id="idm45536786365504" playOrder="27">
+          <navLabel>
+            <text>2.1. Git-Kommandos</text>
+          </navLabel>
+          <content src="ch02s01.html"/>
+          <navPoint id="idm45536786362416" playOrder="28">
+            <navLabel>
+              <text>2.1.1. Index</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.index"/>
+            <navPoint id="idm45536780472384" playOrder="29">
+              <navLabel>
+                <text>Diff auf Wortbasis</text>
+              </navLabel>
+              <content src="ch02s01.html#sec.diff-color-words"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536780457216" playOrder="30">
+            <navLabel>
+              <text>2.1.2. Commits schrittweise erstellen</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.add-p"/>
+          </navPoint>
+          <navPoint id="idm45536780369696" playOrder="31">
+            <navLabel>
+              <text>2.1.3. Commits erstellen</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.commit"/>
+            <navPoint id="idm45536780349152" playOrder="32">
+              <navLabel>
+                <text>Einen Commit verbessern</text>
+              </navLabel>
+              <content src="ch02s01.html#sec.ci-amend"/>
+            </navPoint>
+            <navPoint id="idm45536780338976" playOrder="33">
+              <navLabel>
+                <text>Gute Commit-Nachrichten</text>
+              </navLabel>
+              <content src="ch02s01.html#sec.commit-msg"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536780319616" playOrder="34">
+            <navLabel>
+              <text>2.1.4. Dateien verschieben und löschen</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.git-mv-rm"/>
+          </navPoint>
+          <navPoint id="idm45536780294624" playOrder="35">
+            <navLabel>
+              <text>2.1.5. grep auf einem Repository</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.grep"/>
+          </navPoint>
+          <navPoint id="idm45536780280608" playOrder="36">
+            <navLabel>
+              <text>2.1.6. Die Projektgeschichte untersuchen</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.git-log"/>
+            <navPoint id="idm45536780230480" playOrder="37">
+              <navLabel>
+                <text>Zeitliche Einschränkungen</text>
+              </navLabel>
+              <content src="ch02s01.html#sec.git-log-dates"/>
+            </navPoint>
+            <navPoint id="idm45536780222512" playOrder="38">
+              <navLabel>
+                <text>Einschränkungen auf Dateiebene</text>
+              </navLabel>
+              <content src="ch02s01.html#sec.git-log-files"/>
+            </navPoint>
+            <navPoint id="idm45536780213696" playOrder="39">
+              <navLabel>
+                <text>grep für Commits</text>
+              </navLabel>
+              <content src="ch02s01.html#sec.git-log-grep"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536780185424" playOrder="40">
+            <navLabel>
+              <text>2.1.7. Commit-Ranges</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.commit-ranges-intro"/>
+          </navPoint>
+          <navPoint id="idm45536780177232" playOrder="41">
+            <navLabel>
+              <text>2.1.8. Unterschiede zwischen Commits</text>
+            </navLabel>
+            <content src="ch02s01.html#sec.git-diff"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536780170880" playOrder="42">
+          <navLabel>
+            <text>2.2. Das Objektmodell</text>
+          </navLabel>
+          <content src="ch02s02.html"/>
+          <navPoint id="idm45536780155632" playOrder="43">
+            <navLabel>
+              <text>2.2.1. SHA-1 – der sichere Hash-Algorithmus</text>
+            </navLabel>
+            <content src="ch02s02.html#sec.sha1"/>
+          </navPoint>
+          <navPoint id="idm45536780136352" playOrder="44">
+            <navLabel>
+              <text>2.2.2. Die Git-Objekte</text>
+            </navLabel>
+            <content src="ch02s02.html#sec.objekte"/>
+          </navPoint>
+          <navPoint id="idm45536780091440" playOrder="45">
+            <navLabel>
+              <text>2.2.3. Die Objektdatenbank</text>
+            </navLabel>
+            <content src="ch02s02.html#sec.od"/>
+          </navPoint>
+          <navPoint id="idm45536780064432" playOrder="46">
+            <navLabel>
+              <text>2.2.4. Die Objektdatenbank untersuchen</text>
+            </navLabel>
+            <content src="ch02s02.html#sec.explore-od"/>
+          </navPoint>
+          <navPoint id="idm45536780028320" playOrder="47">
+            <navLabel>
+              <text>2.2.5. Deduplication</text>
+            </navLabel>
+            <content src="ch02s02.html#sec.deduplication"/>
+          </navPoint>
+          <navPoint id="idm45536780009488" playOrder="48">
+            <navLabel>
+              <text>2.2.6. Die Graph-Struktur</text>
+            </navLabel>
+            <content src="ch02s02.html#sec.git-graph"/>
+            <navPoint id="idm45536779990048" playOrder="49">
+              <navLabel>
+                <text>Referenzen: Branches und Tags</text>
+              </navLabel>
+              <content src="ch02s02.html#sec.graph-referenzen"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536779976416" playOrder="50">
+        <navLabel>
+          <text>3. Praktische Versionsverwaltung</text>
+        </navLabel>
+        <content src="ch03.html"/>
+        <navPoint id="idm45536779974464" playOrder="51">
+          <navLabel>
+            <text>3.1. Referenzen: Branches und Tags</text>
+          </navLabel>
+          <content src="ch03s01.html"/>
+          <navPoint id="idm45536779944592" playOrder="52">
+            <navLabel>
+              <text>3.1.1. HEAD und andere symbolische Referenzen</text>
+            </navLabel>
+            <content src="ch03s01.html#sec.branch-refs"/>
+          </navPoint>
+          <navPoint id="idm45536779894496" playOrder="53">
+            <navLabel>
+              <text>3.1.2. Branches verwalten</text>
+            </navLabel>
+            <content src="ch03s01.html#sec.branch-management"/>
+            <navPoint id="idm45536779858464" playOrder="54">
+              <navLabel>
+                <text>Branches wechseln: checkout</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.branch-checkout"/>
+            </navPoint>
+            <navPoint id="idm45536779836480" playOrder="55">
+              <navLabel>
+                <text>Konventionen zur Benennung von Branches</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.branch-naming"/>
+            </navPoint>
+            <navPoint id="idm45536779818544" playOrder="56">
+              <navLabel>
+                <text>Gelöschte Branches und „verlorene“ Commits</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.no-ref-commits"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536779806368" playOrder="57">
+            <navLabel>
+              <text>3.1.3. Tags – Wichtige Versionen markieren</text>
+            </navLabel>
+            <content src="ch03s01.html#sec.tags"/>
+            <navPoint id="idm45536779782992" playOrder="58">
+              <navLabel>
+                <text>Tags verwalten</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.tags-verwalten"/>
+            </navPoint>
+            <navPoint id="idm45536779769984" playOrder="59">
+              <navLabel>
+                <text>Lightweight Tags</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.lightweight-tags"/>
+            </navPoint>
+            <navPoint id="idm45536779760080" playOrder="60">
+              <navLabel>
+                <text>Annotated Tags</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.annotated-tags"/>
+            </navPoint>
+            <navPoint id="idm45536779754640" playOrder="61">
+              <navLabel>
+                <text>Signierte Tags</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.signierte-tags"/>
+            </navPoint>
+            <navPoint id="idm45536779745088" playOrder="62">
+              <navLabel>
+                <text>Tags löschen und überschreiben</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.tags-loeschen"/>
+            </navPoint>
+            <navPoint id="idm45536779738176" playOrder="63">
+              <navLabel>
+                <text>Lightweight vs. Annotated Tags</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.tags-lightweight-vs-heavyweight"/>
+            </navPoint>
+            <navPoint id="idm45536779735072" playOrder="64">
+              <navLabel>
+                <text>Non-Commit Tags</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.non-commit-tags"/>
+            </navPoint>
+            <navPoint id="idm45536779725024" playOrder="65">
+              <navLabel>
+                <text>Commits beschreiben</text>
+              </navLabel>
+              <content src="ch03s01.html#sec.git-describe"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536779703600" playOrder="66">
+          <navLabel>
+            <text>3.2. Versionen wiederherstellen</text>
+          </navLabel>
+          <content src="ch03s02.html"/>
+          <navPoint id="idm45536779681456" playOrder="67">
+            <navLabel>
+              <text>3.2.1. Detached HEAD</text>
+            </navLabel>
+            <content src="ch03s02.html#sec.detached-head"/>
+          </navPoint>
+          <navPoint id="idm45536779668512" playOrder="68">
+            <navLabel>
+              <text>3.2.2. Commits rückgängig machen</text>
+            </navLabel>
+            <content src="ch03s02.html#sec.revert"/>
+          </navPoint>
+          <navPoint id="idm45536779644016" playOrder="69">
+            <navLabel>
+              <text>3.2.3. Reset und der Index</text>
+            </navLabel>
+            <content src="ch03s02.html#sec.reset"/>
+            <navPoint id="idm45536779614832" playOrder="70">
+              <navLabel>
+                <text>reset benutzen</text>
+              </navLabel>
+              <content src="ch03s02.html#sec.reset-usage"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536779581264" playOrder="71">
+          <navLabel>
+            <text>3.3. Branches zusammenführen: Merges</text>
+          </navLabel>
+          <content src="ch03s03.html"/>
+          <navPoint id="idm45536779573632" playOrder="72">
+            <navLabel>
+              <text>3.3.1. Zwei Branches verschmelzen</text>
+            </navLabel>
+            <content src="ch03s03.html#sec.merge-detail"/>
+          </navPoint>
+          <navPoint id="idm45536779543904" playOrder="73">
+            <navLabel>
+              <text>3.3.2. Fast-Forward-Merges: Einen Branch vorspulen</text>
+            </navLabel>
+            <content src="ch03s03.html#sec.merge-ff"/>
+          </navPoint>
+          <navPoint id="idm45536779501552" playOrder="74">
+            <navLabel>
+              <text>3.3.3. Merge-Strategien</text>
+            </navLabel>
+            <content src="ch03s03.html#sec.merge-strategies"/>
+          </navPoint>
+          <navPoint id="idm45536779472496" playOrder="75">
+            <navLabel>
+              <text>3.3.4. Optionen für die recursive-Strategie</text>
+            </navLabel>
+            <content src="ch03s03.html#sec.recursive-options"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536779439232" playOrder="76">
+          <navLabel>
+            <text>3.4. Merge-Konflikte lösen</text>
+          </navLabel>
+          <content src="ch03s04.html"/>
+          <navPoint id="idm45536779374832" playOrder="77">
+            <navLabel>
+              <text>3.4.1. Hilfe beim Merge: mergetool</text>
+            </navLabel>
+            <content src="ch03s04.html#sec.mergetool"/>
+          </navPoint>
+          <navPoint id="idm45536779341728" playOrder="78">
+            <navLabel>
+              <text>3.4.2. rerere: Reuse Recorded Resolution</text>
+            </navLabel>
+            <content src="ch03s04.html#sec.rerere"/>
+            <navPoint id="idm45536779319904" playOrder="79">
+              <navLabel>
+                <text>Warum Rerere sinnvoll ist</text>
+              </navLabel>
+              <content src="ch03s04.html#sec.rerere-explained"/>
+            </navPoint>
+            <navPoint id="idm45536779313888" playOrder="80">
+              <navLabel>
+                <text>Rerere benutzen</text>
+              </navLabel>
+              <content src="ch03s04.html#sec.rerere-usage"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536779302944" playOrder="81">
+            <navLabel>
+              <text>3.4.3. Konflikte vermeiden</text>
+            </navLabel>
+            <content src="ch03s04.html#sec.avoid-conflicts"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536779290528" playOrder="82">
+          <navLabel>
+            <text>3.5. Einzelne Commits übernehmen: Cherry-Pick</text>
+          </navLabel>
+          <content src="ch03s05.html"/>
+        </navPoint>
+        <navPoint id="idm45536779267200" playOrder="83">
+          <navLabel>
+            <text>3.6. Visualisierung von Repositories</text>
+          </navLabel>
+          <content src="ch03s06.html"/>
+          <navPoint id="idm45536779262512" playOrder="84">
+            <navLabel>
+              <text>3.6.1. Revision Parameters</text>
+            </navLabel>
+            <content src="ch03s06.html#rev-list"/>
+            <navPoint id="idm45536779202688" playOrder="85">
+              <navLabel>
+                <text>Referenz vs. Liste von Referenzen</text>
+              </navLabel>
+              <content src="ch03s06.html#rev-list-explained"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536779194944" playOrder="86">
+            <navLabel>
+              <text>3.6.2. Gitk</text>
+            </navLabel>
+            <content src="ch03s06.html#sec.gitk"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536779165488" playOrder="87">
+          <navLabel>
+            <text>3.7. Reflog</text>
+          </navLabel>
+          <content src="ch03s07.html"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536779120064" playOrder="88">
+        <navLabel>
+          <text>4. Fortgeschrittene Konzepte</text>
+        </navLabel>
+        <content src="ch04.html"/>
+        <navPoint id="idm45536779116128" playOrder="89">
+          <navLabel>
+            <text>4.1. Commits verschieben – Rebase</text>
+          </navLabel>
+          <content src="ch04s01.html"/>
+          <navPoint id="idm45536779090016" playOrder="90">
+            <navLabel>
+              <text>4.1.1. Ein Beispiel</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-bsp"/>
+          </navPoint>
+          <navPoint id="idm45536779074080" playOrder="91">
+            <navLabel>
+              <text>4.1.2. Erweiterte Syntax und Konflikte</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-extended"/>
+          </navPoint>
+          <navPoint id="idm45536779053984" playOrder="92">
+            <navLabel>
+              <text>4.1.3. Warum Rebase sinnvoll ist</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-sinnvoll"/>
+          </navPoint>
+          <navPoint id="idm45536779044208" playOrder="93">
+            <navLabel>
+              <text>4.1.4. Wann Rebase nicht sinnvoll ist – Rebase vs. Merge</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-vs-merge"/>
+          </navPoint>
+          <navPoint id="idm45536779030304" playOrder="94">
+            <navLabel>
+              <text>4.1.5. Ein Wort der Warnung</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-warnung"/>
+          </navPoint>
+          <navPoint id="idm45536779017344" playOrder="95">
+            <navLabel>
+              <text>4.1.6. Code-Dopplungen vermeiden</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-cp"/>
+          </navPoint>
+          <navPoint id="idm45536779013264" playOrder="96">
+            <navLabel>
+              <text>4.1.7. Patch-Stacks verwalten</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-ps"/>
+          </navPoint>
+          <navPoint id="idm45536779003168" playOrder="97">
+            <navLabel>
+              <text>4.1.8. Rebase einschränken mit --onto</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-onto"/>
+          </navPoint>
+          <navPoint id="idm45536778976960" playOrder="98">
+            <navLabel>
+              <text>4.1.9. Einen Commit verbessern</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-onto-ci-amend"/>
+          </navPoint>
+          <navPoint id="idm45536778961952" playOrder="99">
+            <navLabel>
+              <text>4.1.10. Rebase feinjustieren</text>
+            </navLabel>
+            <content src="ch04s01.html#sec.rebase-optionen"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778938304" playOrder="100">
+          <navLabel>
+            <text>4.2. Die Geschichte umschreiben – Interaktives Rebase</text>
+          </navLabel>
+          <content src="ch04s02.html"/>
+          <navPoint id="idm45536778897040" playOrder="101">
+            <navLabel>
+              <text>4.2.1. Kleine Fehler korrigieren: Bug Squashing</text>
+            </navLabel>
+            <content src="ch04s02.html#sec.rebase-i-squash"/>
+          </navPoint>
+          <navPoint id="idm45536778865856" playOrder="102">
+            <navLabel>
+              <text>4.2.2. Commits beliebig editieren</text>
+            </navLabel>
+            <content src="ch04s02.html#sec.rebase-i-edit"/>
+            <navPoint id="idm45536778857008" playOrder="103">
+              <navLabel>
+                <text>Commits aufteilen</text>
+              </navLabel>
+              <content src="ch04s02.html#sec.rebase-split-cmmits"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778832672" playOrder="104">
+          <navLabel>
+            <text>4.3. Wer hat diese Änderungen gemacht? – git blame</text>
+          </navLabel>
+          <content src="ch04s03.html"/>
+          <navPoint id="idm45536778818448" playOrder="105">
+            <navLabel>
+              <text>4.3.1. Blame grafisch</text>
+            </navLabel>
+            <content src="ch04s03.html#sec.blame-gui"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778806720" playOrder="106">
+          <navLabel>
+            <text>4.4. Dateien ignorieren</text>
+          </navLabel>
+          <content src="ch04s04.html"/>
+          <navPoint id="idm45536778794320" playOrder="107">
+            <navLabel>
+              <text>4.4.1. Syntax für Muster</text>
+            </navLabel>
+            <content src="ch04s04.html#sec.muster"/>
+          </navPoint>
+          <navPoint id="idm45536778767840" playOrder="108">
+            <navLabel>
+              <text>4.4.2. Nachträglich ignorieren oder versionieren</text>
+            </navLabel>
+            <content src="ch04s04.html#sec.nachtraeglich-ignorieren"/>
+          </navPoint>
+          <navPoint id="idm45536778758064" playOrder="109">
+            <navLabel>
+              <text>4.4.3. Ignorierte und unbekannte Dateien löschen</text>
+            </navLabel>
+            <content src="ch04s04.html#sec.git-clean"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778745936" playOrder="110">
+          <navLabel>
+            <text>4.5. Veränderungen auslagern – git stash</text>
+          </navLabel>
+          <content src="ch04s05.html"/>
+          <navPoint id="idm45536778741616" playOrder="111">
+            <navLabel>
+              <text>4.5.1. Grundlegende Benutzung</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.stash-benutzung"/>
+          </navPoint>
+          <navPoint id="idm45536778719872" playOrder="112">
+            <navLabel>
+              <text>4.5.2. Konflikte lösen</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.stash-konflikte"/>
+          </navPoint>
+          <navPoint id="idm45536778710864" playOrder="113">
+            <navLabel>
+              <text>4.5.3. Wenn Sie den Stash nicht anwenden können…</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.stash-fail"/>
+          </navPoint>
+          <navPoint id="idm45536778699520" playOrder="114">
+            <navLabel>
+              <text>4.5.4. Nachricht anpassen</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.stash-message"/>
+          </navPoint>
+          <navPoint id="idm45536778686640" playOrder="115">
+            <navLabel>
+              <text>4.5.5. Stashes einsehen</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.multi-stash"/>
+          </navPoint>
+          <navPoint id="idm45536778667360" playOrder="116">
+            <navLabel>
+              <text>4.5.6. Stashes löschen</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.stash-delete"/>
+          </navPoint>
+          <navPoint id="idm45536778657824" playOrder="117">
+            <navLabel>
+              <text>4.5.7. Wie ist der Stash implementiert?</text>
+            </navLabel>
+            <content src="ch04s05.html#sec.stash-implementation"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778646400" playOrder="118">
+          <navLabel>
+            <text>4.6. Commits annotieren – git notes</text>
+          </navLabel>
+          <content src="ch04s06.html"/>
+        </navPoint>
+        <navPoint id="idm45536778617712" playOrder="119">
+          <navLabel>
+            <text>4.7. Mehrere Root-Commits</text>
+          </navLabel>
+          <content src="ch04s07.html"/>
+        </navPoint>
+        <navPoint id="idm45536778597648" playOrder="120">
+          <navLabel>
+            <text>4.8. Regressionen finden – git bisect</text>
+          </navLabel>
+          <content src="ch04s08.html"/>
+          <navPoint id="idm45536778578720" playOrder="121">
+            <navLabel>
+              <text>4.8.1. Benutzung</text>
+            </navLabel>
+            <content src="ch04s08.html#sec.bisect-usage"/>
+          </navPoint>
+          <navPoint id="idm45536778567872" playOrder="122">
+            <navLabel>
+              <text>4.8.2. Automatisierung</text>
+            </navLabel>
+            <content src="ch04s08.html#sec.bisect-run"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536778553376" playOrder="123">
+        <navLabel>
+          <text>5. Verteiltes Git</text>
+        </navLabel>
+        <content src="ch05.html"/>
+        <navPoint id="idm45536778548992" playOrder="124">
+          <navLabel>
+            <text>5.1. Wie funktioniert verteilte Versionsverwaltung?</text>
+          </navLabel>
+          <content src="ch05s01.html"/>
+        </navPoint>
+        <navPoint id="idm45536778520880" playOrder="125">
+          <navLabel>
+            <text>5.2. Repositories klonen</text>
+          </navLabel>
+          <content src="ch05s02.html"/>
+          <navPoint id="idm45536778481376" playOrder="126">
+            <navLabel>
+              <text>5.2.1. Repository-URLs</text>
+            </navLabel>
+            <content src="ch05s02.html#sec.repository-url"/>
+          </navPoint>
+          <navPoint id="idm45536778446864" playOrder="127">
+            <navLabel>
+              <text>5.2.2. Remote-Tracking-Branches</text>
+            </navLabel>
+            <content src="ch05s02.html#sec.remote_tracking_branches"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778407888" playOrder="128">
+          <navLabel>
+            <text>5.3. Commits herunterladen</text>
+          </navLabel>
+          <content src="ch05s03.html"/>
+          <navPoint id="idm45536778403168" playOrder="129">
+            <navLabel>
+              <text>5.3.1. git fetch</text>
+            </navLabel>
+            <content src="ch05s03.html#sec.git-fetch"/>
+            <navPoint id="idm45536778383696" playOrder="130">
+              <navLabel>
+                <text>Refspec</text>
+              </navLabel>
+              <content src="ch05s03.html#sec.refspec"/>
+            </navPoint>
+            <navPoint id="idm45536778353472" playOrder="131">
+              <navLabel>
+                <text>Verfallene Remote-Tracking-Branches löschen</text>
+              </navLabel>
+              <content src="ch05s03.html#sec.prune"/>
+            </navPoint>
+            <navPoint id="idm45536778343072" playOrder="132">
+              <navLabel>
+                <text>Lokale Branches zum Arbeiten</text>
+              </navLabel>
+              <content src="ch05s03.html#sec.local-working-branches"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536778327632" playOrder="133">
+            <navLabel>
+              <text>5.3.2. git pull</text>
+            </navLabel>
+            <content src="ch05s03.html#sec.pull"/>
+            <navPoint id="idm45536778280112" playOrder="134">
+              <navLabel>
+                <text>Upstream-Branches</text>
+              </navLabel>
+              <content src="ch05s03.html#sec.upstream"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536778255840" playOrder="135">
+            <navLabel>
+              <text>5.3.3. git fetch vs. git pull</text>
+            </navLabel>
+            <content src="ch05s03.html#sec.fetch-vs-pull"/>
+            <navPoint id="idm45536778252544" playOrder="136">
+              <navLabel>
+                <text>Verteiltes Git für Anfänger</text>
+              </navLabel>
+              <content src="ch05s03.html#sec.push-pull"/>
+            </navPoint>
+            <navPoint id="idm45536778229872" playOrder="137">
+              <navLabel>
+                <text>Verteiltes Git für Fortgeschrittene</text>
+              </navLabel>
+              <content src="ch05s03.html#sec.fetch-push"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778210304" playOrder="138">
+          <navLabel>
+            <text>5.4. Commits hochladen: git push</text>
+          </navLabel>
+          <content src="ch05s04.html"/>
+          <navPoint id="idm45536778171440" playOrder="139">
+            <navLabel>
+              <text>5.4.1. Remote-Referenzen löschen</text>
+            </navLabel>
+            <content src="ch05s04.html#sec.push-delete"/>
+          </navPoint>
+          <navPoint id="idm45536778162048" playOrder="140">
+            <navLabel>
+              <text>5.4.2. Push ohne Argumente: push.default</text>
+            </navLabel>
+            <content src="ch05s04.html#sec.push-default"/>
+          </navPoint>
+          <navPoint id="idm45536778136368" playOrder="141">
+            <navLabel>
+              <text>5.4.3. Konfiguration des Upstream-Branches</text>
+            </navLabel>
+            <content src="ch05s04.html#sec.upstream-config"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778124384" playOrder="142">
+          <navLabel>
+            <text>5.5. Remotes untersuchen</text>
+          </navLabel>
+          <content src="ch05s05.html"/>
+          <navPoint id="idm45536778122640" playOrder="143">
+            <navLabel>
+              <text>5.5.1. Zusammenfassung eines Remotes</text>
+            </navLabel>
+            <content src="ch05s05.html#sec.remotes-show"/>
+          </navPoint>
+          <navPoint id="idm45536778116432" playOrder="144">
+            <navLabel>
+              <text>5.5.2. Vergleich mit dem Upstream</text>
+            </navLabel>
+            <content src="ch05s05.html#sec.remote-branch-vv"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778090304" playOrder="145">
+          <navLabel>
+            <text>5.6. Verteilter Workflow mit mehreren Remotes</text>
+          </navLabel>
+          <content src="ch05s06.html"/>
+        </navPoint>
+        <navPoint id="idm45536778074496" playOrder="146">
+          <navLabel>
+            <text>5.7. Remotes verwalten</text>
+          </navLabel>
+          <content src="ch05s07.html"/>
+          <navPoint id="idm45536778051520" playOrder="147">
+            <navLabel>
+              <text>5.7.1. Pull-Request</text>
+            </navLabel>
+            <content src="ch05s07.html#sec.pull-request"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536778038224" playOrder="148">
+          <navLabel>
+            <text>5.8. Tags austauschen</text>
+          </navLabel>
+          <content src="ch05s08.html"/>
+          <navPoint id="idm45536778032128" playOrder="149">
+            <navLabel>
+              <text>5.8.1. Tags herunterladen</text>
+            </navLabel>
+            <content src="ch05s08.html#sec.tags-download"/>
+          </navPoint>
+          <navPoint id="idm45536778016480" playOrder="150">
+            <navLabel>
+              <text>5.8.2. Tags hochladen</text>
+            </navLabel>
+            <content src="ch05s08.html#sec.tags-hochladen"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536777992032" playOrder="151">
+          <navLabel>
+            <text>5.9. Patches per E-Mail</text>
+          </navLabel>
+          <content src="ch05s09.html"/>
+          <navPoint id="idm45536777976272" playOrder="152">
+            <navLabel>
+              <text>5.9.1. Patches exportieren</text>
+            </navLabel>
+            <content src="ch05s09.html#sec.patches-exportieren"/>
+          </navPoint>
+          <navPoint id="idm45536777928624" playOrder="153">
+            <navLabel>
+              <text>5.9.2. Patches versenden</text>
+            </navLabel>
+            <content src="ch05s09.html#sec.patches-versenden"/>
+          </navPoint>
+          <navPoint id="idm45536777896160" playOrder="154">
+            <navLabel>
+              <text>5.9.3. Patches einpflegen</text>
+            </navLabel>
+            <content src="ch05s09.html#sec.patches-einpflegen"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536777855904" playOrder="155">
+          <navLabel>
+            <text>5.10. Ein verteilter, hierarchischer Workflow</text>
+          </navLabel>
+          <content src="ch05s10.html"/>
+        </navPoint>
+        <navPoint id="idm45536777842976" playOrder="156">
+          <navLabel>
+            <text>5.11. Unterprojekte verwalten</text>
+          </navLabel>
+          <content src="ch05s11.html"/>
+          <navPoint id="idm45536777829520" playOrder="157">
+            <navLabel>
+              <text>5.11.1. Submodules</text>
+            </navLabel>
+            <content src="ch05s11.html#sec.submodules"/>
+            <navPoint id="idm45536777808576" playOrder="158">
+              <navLabel>
+                <text>Änderungen im Submodule</text>
+              </navLabel>
+              <content src="ch05s11.html#sec.submodule-mod"/>
+            </navPoint>
+            <navPoint id="idm45536777786848" playOrder="159">
+              <navLabel>
+                <text>Aus Sicht eines Nutzers</text>
+              </navLabel>
+              <content src="ch05s11.html#sec.submodule-userview"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536777772992" playOrder="160">
+            <navLabel>
+              <text>5.11.2. Subtrees</text>
+            </navLabel>
+            <content src="ch05s11.html#sec.subtrees"/>
+            <navPoint id="idm45536777736688" playOrder="161">
+              <navLabel>
+                <text>Ein Unterverzeichnis abspalten</text>
+              </navLabel>
+              <content src="ch05s11.html#sec.split-off-subtree"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536777724064" playOrder="162">
+            <navLabel>
+              <text>5.11.3. Submodules vs. Subtrees</text>
+            </navLabel>
+            <content src="ch05s11.html#sec.submodule-vs-subtree"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536777716512" playOrder="163">
+        <navLabel>
+          <text>6. Workflows</text>
+        </navLabel>
+        <content src="ch06.html"/>
+        <navPoint id="idm45536777710000" playOrder="164">
+          <navLabel>
+            <text>6.1. Anwender</text>
+          </navLabel>
+          <content src="ch06s01.html"/>
+        </navPoint>
+        <navPoint id="idm45536777652128" playOrder="165">
+          <navLabel>
+            <text>6.2. Ein Branching-Modell</text>
+          </navLabel>
+          <content src="ch06s02.html"/>
+        </navPoint>
+        <navPoint id="idm45536777567968" playOrder="166">
+          <navLabel>
+            <text>6.3. Releases-Management</text>
+          </navLabel>
+          <content src="ch06s03.html"/>
+          <navPoint id="idm45536777563744" playOrder="167">
+            <navLabel>
+              <text>6.3.1. Aufgaben sondieren</text>
+            </navLabel>
+            <content src="ch06s03.html#sec.release-check-branches"/>
+          </navPoint>
+          <navPoint id="idm45536777522416" playOrder="168">
+            <navLabel>
+              <text>6.3.2. Release erstellen</text>
+            </navLabel>
+            <content src="ch06s03.html#sec.release-create"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536777463792" playOrder="169">
+        <navLabel>
+          <text>7. Git auf dem Server</text>
+        </navLabel>
+        <content src="ch07.html"/>
+        <navPoint id="idm45536777460432" playOrder="170">
+          <navLabel>
+            <text>7.1. Einen Git-Server hosten</text>
+          </navLabel>
+          <content src="ch07s01.html"/>
+          <navPoint id="idm45536777458608" playOrder="171">
+            <navLabel>
+              <text>7.1.1. Das Git-Protokoll</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.protokolle"/>
+          </navPoint>
+          <navPoint id="idm45536777442112" playOrder="172">
+            <navLabel>
+              <text>7.1.2. Repositories auf dem gleichen Rechner</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.git-pack-same-machine"/>
+          </navPoint>
+          <navPoint id="idm45536777439872" playOrder="173">
+            <navLabel>
+              <text>7.1.3. Bare Repositories – Repositories ohne Working Tree</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.bare-repos"/>
+          </navPoint>
+          <navPoint id="idm45536777425024" playOrder="174">
+            <navLabel>
+              <text>7.1.4. Zugriffsrechte eines Repositorys</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.permissions"/>
+          </navPoint>
+          <navPoint id="idm45536777400256" playOrder="175">
+            <navLabel>
+              <text>7.1.5. Zugriff per SSH: Die Git-Shell</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.git-shell"/>
+          </navPoint>
+          <navPoint id="idm45536777393824" playOrder="176">
+            <navLabel>
+              <text>7.1.6. Zugriff per SSH: Öffentliche Schlüssel</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.ssh-pubkey"/>
+          </navPoint>
+          <navPoint id="idm45536777390640" playOrder="177">
+            <navLabel>
+              <text>7.1.7. Beispiel: Zwei Nutzer wollen kollaborieren</text>
+            </navLabel>
+            <content src="ch07s01.html#sec.two-users"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536777362160" playOrder="178">
+          <navLabel>
+            <text>7.2. Gitolite: Git einfach hosten</text>
+          </navLabel>
+          <content src="ch07s02.html"/>
+          <navPoint id="idm45536777345360" playOrder="179">
+            <navLabel>
+              <text>7.2.1. Gitolite installieren</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.gitolite-install"/>
+          </navPoint>
+          <navPoint id="idm45536777319904" playOrder="180">
+            <navLabel>
+              <text>7.2.2. Gitolite-Konfiguration</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.gitolite-config"/>
+          </navPoint>
+          <navPoint id="idm45536777293648" playOrder="181">
+            <navLabel>
+              <text>7.2.3. Eigentümer und Beschreibung</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.gitweb-name"/>
+          </navPoint>
+          <navPoint id="idm45536777287712" playOrder="182">
+            <navLabel>
+              <text>7.2.4. Zugriffsrechte auf Datei- oder Branch-Ebene</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.zugriffdateiebene"/>
+          </navPoint>
+          <navPoint id="idm45536777260800" playOrder="183">
+            <navLabel>
+              <text>7.2.5. Persönliche Namespaces</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.personal-namespace"/>
+          </navPoint>
+          <navPoint id="idm45536777253312" playOrder="184">
+            <navLabel>
+              <text>7.2.6. Zugriffsregelung auf Dateiebene</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.file-level-acl"/>
+          </navPoint>
+          <navPoint id="idm45536777237216" playOrder="185">
+            <navLabel>
+              <text>7.2.7. Aktionen explizit verbieten</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.gl-deny"/>
+          </navPoint>
+          <navPoint id="idm45536777220640" playOrder="186">
+            <navLabel>
+              <text>7.2.8. Sollte man Policies forcieren?</text>
+            </navLabel>
+            <content src="ch07s02.html#sec.enforce-policy"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536777214032" playOrder="187">
+          <navLabel>
+            <text>7.3. Git-Daemon: Anonymer, lesender Zugriff</text>
+          </navLabel>
+          <content src="ch07s03.html"/>
+          <navPoint id="idm45536777189328" playOrder="188">
+            <navLabel>
+              <text>7.3.1. Git-Daemon und Inetd</text>
+            </navLabel>
+            <content src="ch07s03.html#sec.git-daemon-inetd"/>
+          </navPoint>
+          <navPoint id="idm45536777176336" playOrder="189">
+            <navLabel>
+              <text>7.3.2. Der Debian-Weg: Git-Daemon sv</text>
+            </navLabel>
+            <content src="ch07s03.html#sec.git-daemon-sv"/>
+          </navPoint>
+          <navPoint id="idm45536777150288" playOrder="190">
+            <navLabel>
+              <text>7.3.3. Der Git-Daemon auf einem Produktivsystem</text>
+            </navLabel>
+            <content src="ch07s03.html#sec.git-daemon-productive"/>
+          </navPoint>
+          <navPoint id="idm45536777123056" playOrder="191">
+            <navLabel>
+              <text>7.3.4. Über Gitolite exportierbare Repositories festlegen</text>
+            </navLabel>
+            <content src="ch07s03.html#sec.gitoliteexport"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536777116384" playOrder="192">
+          <navLabel>
+            <text>7.4. Gitweb: Das integrierte Web-Frontend</text>
+          </navLabel>
+          <content src="ch07s04.html"/>
+          <navPoint id="idm45536777105392" playOrder="193">
+            <navLabel>
+              <text>7.4.1. Gitweb global installieren</text>
+            </navLabel>
+            <content src="ch07s04.html#sec.gitweb-install"/>
+          </navPoint>
+          <navPoint id="idm45536777081360" playOrder="194">
+            <navLabel>
+              <text>7.4.2. Gitweb und Apache</text>
+            </navLabel>
+            <content src="ch07s04.html#sec.gitweb-apache"/>
+          </navPoint>
+          <navPoint id="idm45536777072112" playOrder="195">
+            <navLabel>
+              <text>7.4.3. Gitweb und Lighttpd</text>
+            </navLabel>
+            <content src="ch07s04.html#sec.gitweb-lighty"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536777054224" playOrder="196">
+          <navLabel>
+            <text>7.5. CGit – CGI for Git</text>
+          </navLabel>
+          <content src="ch07s05.html"/>
+          <navPoint id="idm45536777034848" playOrder="197">
+            <navLabel>
+              <text>7.5.1. CGit und Apache und Lighttpd</text>
+            </navLabel>
+            <content src="ch07s05.html#sec.cgit-integration"/>
+          </navPoint>
+          <navPoint id="idm45536777025584" playOrder="198">
+            <navLabel>
+              <text>7.5.2. Konfiguration</text>
+            </navLabel>
+            <content src="ch07s05.html#sec.cgit-config"/>
+          </navPoint>
+          <navPoint id="idm45536776970064" playOrder="199">
+            <navLabel>
+              <text>7.5.3. Einzelne Repositories speziell konfigurieren</text>
+            </navLabel>
+            <content src="ch07s05.html#sec.cgit-special-config"/>
+          </navPoint>
+          <navPoint id="idm45536776963616" playOrder="200">
+            <navLabel>
+              <text>7.5.4. Caching ausnutzen</text>
+            </navLabel>
+            <content src="ch07s05.html#sec.cgit-cache"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536776936080" playOrder="201">
+        <navLabel>
+          <text>8. Git automatisieren</text>
+        </navLabel>
+        <content src="ch08.html"/>
+        <navPoint id="idm45536776929472" playOrder="202">
+          <navLabel>
+            <text>8.1. Git-Attribute – Dateien gesondert behandeln</text>
+          </navLabel>
+          <content src="ch08s01.html"/>
+          <navPoint id="idm45536776908128" playOrder="203">
+            <navLabel>
+              <text>8.1.1. Filter: Smudge und Clean</text>
+            </navLabel>
+            <content src="ch08s01.html#sec.smudge-clean"/>
+          </navPoint>
+          <navPoint id="idm45536776893888" playOrder="204">
+            <navLabel>
+              <text>8.1.2. Keywords in Dateien</text>
+            </navLabel>
+            <content src="ch08s01.html#sec.smudge-clean-keywords"/>
+            <navPoint id="idm45536776882640" playOrder="205">
+              <navLabel>
+                <text>Einschränkungen</text>
+              </navLabel>
+              <content src="ch08s01.html#sec.smudge-clean-dontuse"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536776863168" playOrder="206">
+            <navLabel>
+              <text>8.1.3. Eigene Diff-Programme</text>
+            </navLabel>
+            <content src="ch08s01.html#sec.external-diff"/>
+            <navPoint id="idm45536776857328" playOrder="207">
+              <navLabel>
+                <text>API für externe Diff-Programme</text>
+              </navLabel>
+              <content src="ch08s01.html#sec.external-diff-parameters"/>
+            </navPoint>
+            <navPoint id="idm45536776844864" playOrder="208">
+              <navLabel>
+                <text>Externe Diffs konfigurieren</text>
+              </navLabel>
+              <content src="ch08s01.html#sec.diff-config"/>
+            </navPoint>
+            <navPoint id="idm45536776831552" playOrder="209">
+              <navLabel>
+                <text>Bilder vergleichen</text>
+              </navLabel>
+              <content src="ch08s01.html#sec.diff-immages"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536776802080" playOrder="210">
+          <navLabel>
+            <text>8.2. Hooks</text>
+          </navLabel>
+          <content src="ch08s02.html"/>
+          <navPoint id="idm45536776787760" playOrder="211">
+            <navLabel>
+              <text>8.2.1. Commits</text>
+            </navLabel>
+            <content src="ch08s02.html#sec.hooks-commit"/>
+          </navPoint>
+          <navPoint id="idm45536776744800" playOrder="212">
+            <navLabel>
+              <text>8.2.2. Serverseitig</text>
+            </navLabel>
+            <content src="ch08s02.html#sec.hooks-server"/>
+            <navPoint id="idm45536776721856" playOrder="213">
+              <navLabel>
+                <text>Das Format der receive-Hooks</text>
+              </navLabel>
+              <content src="ch08s02.html#sec.hooks-receive-format"/>
+            </navPoint>
+            <navPoint id="idm45536776709360" playOrder="214">
+              <navLabel>
+                <text>E-Mails verschicken</text>
+              </navLabel>
+              <content src="ch08s02.html#sec.hooks-email"/>
+            </navPoint>
+            <navPoint id="idm45536776698432" playOrder="215">
+              <navLabel>
+                <text>Der update-Hook</text>
+              </navLabel>
+              <content src="ch08s02.html#sec.hooks-update"/>
+            </navPoint>
+            <navPoint id="idm45536776693216" playOrder="216">
+              <navLabel>
+                <text>Deployment über Hooks</text>
+              </navLabel>
+              <content src="ch08s02.html#sec.hooks-deploy"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536776686224" playOrder="217">
+            <navLabel>
+              <text>8.2.3. Patches anwenden</text>
+            </navLabel>
+            <content src="ch08s02.html#sec.hooks-am"/>
+          </navPoint>
+          <navPoint id="idm45536776672224" playOrder="218">
+            <navLabel>
+              <text>8.2.4. Sonstige Hooks</text>
+            </navLabel>
+            <content src="ch08s02.html#sec.hooks-misc"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536776630832" playOrder="219">
+          <navLabel>
+            <text>8.3. Eigene Git-Kommandos schreiben</text>
+          </navLabel>
+          <content src="ch08s03.html"/>
+          <navPoint id="idm45536776605632" playOrder="220">
+            <navLabel>
+              <text>8.3.1. Initialisierung</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.scripting-init"/>
+          </navPoint>
+          <navPoint id="idm45536776582528" playOrder="221">
+            <navLabel>
+              <text>8.3.2. Position im Repository</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.scripting-pos"/>
+          </navPoint>
+          <navPoint id="idm45536776570368" playOrder="222">
+            <navLabel>
+              <text>8.3.3. Referenzen auflisten: rev-list</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.scripting-rev-list"/>
+          </navPoint>
+          <navPoint id="idm45536776545904" playOrder="223">
+            <navLabel>
+              <text>8.3.4. Änderungen finden</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.scripting-find-changes"/>
+          </navPoint>
+          <navPoint id="idm45536776511504" playOrder="224">
+            <navLabel>
+              <text>8.3.5. Die Objektdatenbank und rev-parse</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.od-explore"/>
+          </navPoint>
+          <navPoint id="idm45536776470944" playOrder="225">
+            <navLabel>
+              <text>8.3.6. Referenzen iterieren: for-each-ref</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.for-each-ref"/>
+          </navPoint>
+          <navPoint id="idm45536776416992" playOrder="226">
+            <navLabel>
+              <text>8.3.7. Referenzen umschreiben: git update-ref</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.git-update-ref"/>
+          </navPoint>
+          <navPoint id="idm45536776396176" playOrder="227">
+            <navLabel>
+              <text>8.3.8. Erweiterte Aliase</text>
+            </navLabel>
+            <content src="ch08s03.html#sec.git-erweiterte-aliase"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536776376864" playOrder="228">
+          <navLabel>
+            <text>8.4. Versionsgeschichte umschreiben</text>
+          </navLabel>
+          <content src="ch08s04.html"/>
+          <navPoint id="idm45536776332912" playOrder="229">
+            <navLabel>
+              <text>8.4.1. Sensitive Informationen nachträglich entfernen</text>
+            </navLabel>
+            <content src="ch08s04.html#sec.fb-censor"/>
+            <navPoint id="idm45536776313632" playOrder="230">
+              <navLabel>
+                <text>Strings aus Dateien entfernen</text>
+              </navLabel>
+              <content src="ch08s04.html#sec.fb-censor-string"/>
+            </navPoint>
+            <navPoint id="idm45536776291776" playOrder="231">
+              <navLabel>
+                <text>Einen Entwickler umbenennen</text>
+              </navLabel>
+              <content src="ch08s04.html#sec.fb-developer"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536776286256" playOrder="232">
+            <navLabel>
+              <text>8.4.2. Unterverzeichnis extrahieren</text>
+            </navLabel>
+            <content src="ch08s04.html#sec.fb-subdir"/>
+          </navPoint>
+          <navPoint id="idm45536776278944" playOrder="233">
+            <navLabel>
+              <text>8.4.3. Grafts: Nachträgliche Merges</text>
+            </navLabel>
+            <content src="ch08s04.html#sec.fb-grafts"/>
+          </navPoint>
+          <navPoint id="idm45536776252880" playOrder="234">
+            <navLabel>
+              <text>8.4.4. Alte Commits löschen</text>
+            </navLabel>
+            <content src="ch08s04.html#sec.fb-clean"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536776235456" playOrder="235">
+        <navLabel>
+          <text>9. Zusammenspiel mit anderen Versionsverwaltungssystemen</text>
+        </navLabel>
+        <content src="ch09.html"/>
+        <navPoint id="idm45536776208768" playOrder="236">
+          <navLabel>
+            <text>9.1. Subversion</text>
+          </navLabel>
+          <content src="ch09s01.html"/>
+          <navPoint id="idm45536776206080" playOrder="237">
+            <navLabel>
+              <text>9.1.1. Konvertierung</text>
+            </navLabel>
+            <content src="ch09s01.html#sec.git-svn-convert"/>
+            <navPoint id="idm45536776203760" playOrder="238">
+              <navLabel>
+                <text>Vorbereitung</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-vorbereitung"/>
+            </navPoint>
+            <navPoint id="idm45536776167408" playOrder="239">
+              <navLabel>
+                <text>SVN-Metadaten</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-metadata"/>
+            </navPoint>
+            <navPoint id="idm45536776159328" playOrder="240">
+              <navLabel>
+                <text>Benutzernamen angeben</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-username"/>
+            </navPoint>
+            <navPoint id="idm45536776152992" playOrder="241">
+              <navLabel>
+                <text>Standardlayout konvertieren</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-convert-befehl"/>
+            </navPoint>
+            <navPoint id="idm45536776148928" playOrder="242">
+              <navLabel>
+                <text>Non-Standard Layout</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-nonstdlayout"/>
+            </navPoint>
+            <navPoint id="idm45536776125040" playOrder="243">
+              <navLabel>
+                <text>Nachbearbeitung</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-nachbearbeiten"/>
+            </navPoint>
+            <navPoint id="idm45536776009472" playOrder="244">
+              <navLabel>
+                <text>Subversion-Merges</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-merges"/>
+            </navPoint>
+          </navPoint>
+          <navPoint id="idm45536775971568" playOrder="245">
+            <navLabel>
+              <text>9.1.2. Bidirektionale Kommunikation</text>
+            </navLabel>
+            <content src="ch09s01.html#sec.git-svn-conduit"/>
+            <navPoint id="idm45536775948112" playOrder="246">
+              <navLabel>
+                <text>Subversion-Repository klonen</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-clone"/>
+            </navPoint>
+            <navPoint id="idm45536775906864" playOrder="247">
+              <navLabel>
+                <text>Repository untersuchen</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-untersuchen"/>
+            </navPoint>
+            <navPoint id="idm45536775874048" playOrder="248">
+              <navLabel>
+                <text>Commits austauschen</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-austausch"/>
+            </navPoint>
+            <navPoint id="idm45536775834368" playOrder="249">
+              <navLabel>
+                <text>Subversion-Branches und -Tags</text>
+              </navLabel>
+              <content src="ch09s01.html#sec.git-svn-branches-tags"/>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536775797536" playOrder="250">
+          <navLabel>
+            <text>9.2. Eigene Importer</text>
+          </navLabel>
+          <content src="ch09s02.html"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536775724672" playOrder="251">
+        <navLabel>
+          <text>10. Shell-Integration</text>
+        </navLabel>
+        <content src="ch10.html"/>
+        <navPoint id="idm45536775710736" playOrder="252">
+          <navLabel>
+            <text>10.1. Git und die Bash</text>
+          </navLabel>
+          <content src="ch10s01.html"/>
+          <navPoint id="idm45536775703728" playOrder="253">
+            <navLabel>
+              <text>10.1.1. Completion</text>
+            </navLabel>
+            <content src="ch10s01.html#sec.bash-completion"/>
+          </navPoint>
+          <navPoint id="idm45536775655728" playOrder="254">
+            <navLabel>
+              <text>10.1.2. Prompt</text>
+            </navLabel>
+            <content src="ch10s01.html#sec.bash-prompt"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536775593552" playOrder="255">
+          <navLabel>
+            <text>10.2. Git und die Z-Shell</text>
+          </navLabel>
+          <content src="ch10s02.html"/>
+          <navPoint id="idm45536775580880" playOrder="256">
+            <navLabel>
+              <text>10.2.1. Completion</text>
+            </navLabel>
+            <content src="ch10s02.html#sec.zsh-completion"/>
+          </navPoint>
+          <navPoint id="idm45536775535328" playOrder="257">
+            <navLabel>
+              <text>10.2.2. Prompt</text>
+            </navLabel>
+            <content src="ch10s02.html#sec.zsh-prompt"/>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536775448368" playOrder="258">
+        <navLabel>
+          <text>11. Github</text>
+        </navLabel>
+        <content src="ch11.html"/>
+      </navPoint>
+      <navPoint id="idm45536775349168" playOrder="259">
+        <navLabel>
+          <text>A. Installation</text>
+        </navLabel>
+        <content src="apa.html"/>
+        <navPoint id="idm45536775347056" playOrder="260">
+          <navLabel>
+            <text>A.1. Linux</text>
+          </navLabel>
+          <content src="apas01.html"/>
+          <navPoint id="idm45536775344720" playOrder="261">
+            <navLabel>
+              <text>A.1.1. Debian/Ubuntu</text>
+            </navLabel>
+            <content src="apas01.html#sec.debian-ubuntu"/>
+          </navPoint>
+          <navPoint id="idm45536775319440" playOrder="262">
+            <navLabel>
+              <text>A.1.2. Fedora</text>
+            </navLabel>
+            <content src="apas01.html#sec.fedora"/>
+          </navPoint>
+          <navPoint id="idm45536775314112" playOrder="263">
+            <navLabel>
+              <text>A.1.3. Gentoo</text>
+            </navLabel>
+            <content src="apas01.html#sec.gentoo"/>
+          </navPoint>
+          <navPoint id="idm45536775305648" playOrder="264">
+            <navLabel>
+              <text>A.1.4. Installation aus den Quellen</text>
+            </navLabel>
+            <content src="apas01.html#sec.quellcode-installation"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="idm45536775288368" playOrder="265">
+          <navLabel>
+            <text>A.2. Mac OS X</text>
+          </navLabel>
+          <content src="apas02.html"/>
+        </navPoint>
+        <navPoint id="idm45536775285024" playOrder="266">
+          <navLabel>
+            <text>A.3. Windows</text>
+          </navLabel>
+          <content src="apas03.html"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="idm45536775281088" playOrder="267">
+        <navLabel>
+          <text>B. Struktur eines Repositorys</text>
+        </navLabel>
+        <content src="apb.html"/>
+        <navPoint id="idm45536775229056" playOrder="268">
+          <navLabel>
+            <text>B.1. Aufräumen</text>
+          </navLabel>
+          <content src="apbs01.html"/>
+        </navPoint>
+        <navPoint id="idm45536775199232" playOrder="269">
+          <navLabel>
+            <text>B.2. Performance</text>
+          </navLabel>
+          <content src="apbs02.html"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

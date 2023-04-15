@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\xml\toc.xml">
+      <PackagePath>xml\toc.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\src\epubViewer\tryEpub\epubReader\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
